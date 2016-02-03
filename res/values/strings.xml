@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Visual Dialer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ref">Patent Pending 2013</string>
+    <string name="title">Visual Dialer</string>
+    <string name="Action">Action</string>
+    <string name="action_1">Dial Now</string>
+    <string name="action_2">Add To Favorites</string>
+    <string name="action_3">Share</string>
+    <string name="action_4">Connect to Rep</string>
+    <string name="cat_title">Main Menu</string>
+    <string name="Cat_1">Computers &amp; Electronics</string>
+    <string name="Cat_2">Food &amp; Dining</string>
+    <string name="Cat_3">Health &amp; Medicine</string>
+    <string name="Cat_4">Travel &amp; Transportation</string>
+    <string name="Cat_5">Government &amp; Financial</string>
+    <string name="Cat_6">Shopping</string>
+    <string name="subcat_1_1">Best Buy</string>
+    <string name="subcat_1_2">Frys Electronics</string>
+    <string name="subcat_1_3">Apple</string>
+    <string name="back">BACK</string>
+    <string name="set">SETTINGS</string>
+    <string name="menu_1_opt_1">Operator</string>
+    <string name="menu_1_opt_2">Appliances</string>
+    <string name="menu_1_opt_3">Computers</string>
+    <string name="menu_1_opt_4">Gaming</string>
+    <string name="menu_1_opt_5">Mobile</string>
+    <string name="title_activity_connect_to_rep">Connect To Rep</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="button_send_to_rep">Send to rep</string>
+    <string name="rep_id">Rep ID</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="title_activity_send_profile_info_to_rep">Sending Profile Info To Rep</string>
+    <string name="menu_connect_to_rep">Connect To Rep</string>
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_call_menu">Call Menu</string>
+    <string name="title_profile_info">Profile Info</string>
+    <string name="button_goto_preferences">Preferences</string>
+    <string name="image_green_check_mark">Success</string>
+    <string name="unknown_person">Unknown</string>
+    <string name="fav_clear_menu">Clear Favorites</string>
+    <string name="custom_message">Custom Message</string>
+
+</resources>

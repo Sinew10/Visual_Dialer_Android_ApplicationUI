@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/CallMenu"
+        android:numericShortcut="1"
+        android:alphabeticShortcut ="c"
+        android:title="@string/menu_call_menu"/>
+    <item 
+        android:title="@string/menu_favorites"
+        android:id = "@+id/fav"
+        android:numericShortcut="2"
+        android:alphabeticShortcut="f"
+        /> 
+	<item 
+        android:title="@string/menu_search"
+        android:id = "@+id/search"
+        android:numericShortcut="3"
+        android:alphabeticShortcut="s"
+        />
+	
+	<!-- Current location for preferences/setting option. 
+	 May change. - Maria -->
+	<item 
+        android:title="@string/menu_preferences"
+        android:id = "@+id/preferences"
+        android:numericShortcut="4"
+        android:alphabeticShortcut="p"
+        />
+	
+	<item 
+        android:title="@string/menu_connect_to_rep"
+        android:id = "@+id/connectToRep"
+        android:numericShortcut="5"
+        android:alphabeticShortcut="r"
+        />
+</menu>

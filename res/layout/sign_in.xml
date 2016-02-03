@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/boarder"
+    android:layout_height="fill_parent" >
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/bSignIn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="176dp"
+        android:minWidth="150dp"
+        android:text="Sign In" />
+
+    <Button
+        android:id="@+id/bSignOut"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bSignIn"
+        android:layout_below="@+id/bSignIn"
+        android:layout_marginTop="37dp"
+        android:minWidth="150dp"
+        android:text="Sign Out" />
+
+    <Button
+        android:id="@+id/bPost"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bSignOut"
+        android:layout_below="@+id/bSignOut"
+        android:layout_marginTop="26dp"
+        android:minWidth="150dp"
+        android:text="Post" />
+
+    <TextView
+        android:id="@+id/tvGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="88dp"
+        android:gravity="center"
+        android:text="Google+"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000FF"
+        android:textSize="40dp" />
+
+</RelativeLayout>

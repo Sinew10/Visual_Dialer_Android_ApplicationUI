@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/boarder"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_action_menu"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:layout_weight="0.27"
+        android:gravity="center"
+        android:text="@string/Action"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#0000FF"
+        android:textSize="40dp" />
+        
+    <Button
+        android:id="@+id/b_dial_now"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:text="@string/action_1" />
+
+    <Button
+        android:id="@+id/b_connect_rep"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:text="@string/action_4" />
+
+    <Button
+        android:id="@+id/b_share"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:text="@string/action_3" />
+
+    <Button
+        android:id="@+id/b_favorites"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:text="@string/action_2" />
+
+    <Button
+        android:id="@+id/b_settings"
+        android:visibility="invisible"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_marginBottom="54dp"
+        android:layout_weight="1"
+        android:text="@string/set" />
+
+
+</LinearLayout>

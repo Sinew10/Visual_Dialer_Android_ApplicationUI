@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/boarder"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/bGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bEmail"
+        android:layout_alignLeft="@+id/bEmail"
+        android:minWidth="175dp"
+        android:text="Share with Google+" />
+
+    <Button
+        android:id="@+id/bEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bText"
+        android:layout_alignLeft="@+id/bText"
+        android:minWidth="175dp"
+        android:text="Share With eMail" />
+
+    <Button
+        android:id="@+id/bText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/tvShare"
+        android:layout_marginBottom="194dp"
+        android:minWidth="175dp"
+        android:text="Share with Text" />
+
+    <TextView
+        android:id="@+id/tvShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bGoogle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:text="Share Menu"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000FF"
+        android:textSize="35dp" />
+
+</RelativeLayout>

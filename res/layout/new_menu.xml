@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:weightSum="10" >
+
+
+    <ImageView
+        android:id="@+id/imLogoTopView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:layout_weight="6" />
+
+    <ListView
+        android:id="@+id/lvMainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_weight="4">
+    </ListView>
+
+</LinearLayout>

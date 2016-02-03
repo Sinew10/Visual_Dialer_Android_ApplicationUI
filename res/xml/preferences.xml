@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<EditTextPreference 
+    android:title="First name"
+    android:key="prefFirstName"
+    android:summary="Enter your first name:">
+</EditTextPreference>
+    
+<EditTextPreference 
+    android:title="Last name"
+    android:key="prefLastName"
+    android:summary="Enter your last name:">
+</EditTextPreference>
+
+<EditTextPreference 
+    android:title="Address line 1"
+    android:key="prefAddr1"
+    android:summary="Enter your address line 1:">
+</EditTextPreference>
+
+<EditTextPreference 
+    android:title="Address line 2"
+    android:key="prefAddr2"
+    android:summary="Enter your address line 2:">
+</EditTextPreference>
+
+<EditTextPreference 
+    android:title="City"
+    android:key="prefCity"
+    android:summary="Enter your city:">
+</EditTextPreference>
+
+<EditTextPreference 
+    android:title="Zip code"
+    android:key="prefZipCode"
+    android:summary="Enter your zipcode:">
+</EditTextPreference>
+
+<EditTextPreference 
+    android:title="Cell phone"
+    android:key="prefCellPhone"
+    android:summary="Enter your cellphone:">
+</EditTextPreference>
+
+<!--  Examples: (may not be used) -->
+
+</PreferenceScreen>

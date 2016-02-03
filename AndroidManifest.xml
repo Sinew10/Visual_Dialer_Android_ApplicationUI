@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.visualdialer.visualdialer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="com.visualdialer.visualdialer" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        >
+        <uses-library android:name="android.test.runner" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+         
+
+        
+        
+        <activity
+            android:name="com.visualdialer.visualdialer.MainScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.visualdialer.visualdialer.MenuController"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.visualdialer.visualdialer.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.visualdialer.visualdialer.Action_Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.visualdialer.visualdialer.ActionMenu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.visualdialer.visualdialer.favorites"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.visualdialer.visualdialer.favorites" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.visualdialer.visualdialer.Search"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.visualdialer.visualdialer.Search" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.visualdialer.visualdialer.ConnectToRepActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.visualdialer.visualdialer.ConnectToRepActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        
+        
+        
+        <!-- Added by Maria. Aka settings. -->
+        <activity
+            android:name="com.visualdialer.visualdialer.Preferences"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.visualdialer.visualdialer.Preferences" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>            
+   		 <activity
+            android:name="com.visualdialer.visualdialer.Share"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.visualdialer.visualdialer.Share" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+       	 </activity>
+       	 <activity
+            android:name="com.visualdialer.visualdialer.new_menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.visualdialer.visualdialer.new_menu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+       	 </activity>
+       	 <activity
+            android:name="com.visualdialer.visualdialer.SignIn"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.visualdialer.visualdialer.SignIn" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+       	 </activity>
+       	 <activity
+            android:name="com.visualdialer.visualdialer.Sample"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.visualdialer.visualdialer.Sample" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+       	 </activity>
+    </application>   
+
+</manifest>
